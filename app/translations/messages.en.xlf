@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="label.actions">
+        <source>label.actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="label.id">
+        <source>label.id</source>
+        <target>Id</target>
+      </trans-unit>
+      <trans-unit id="label.title">
+        <source>label.title</source>
+        <target>Title</target>
+      </trans-unit>
+      <trans-unit id="label.content">
+        <source>label.content</source>
+        <target>Content</target>
+      </trans-unit>
+      <trans-unit id="label.tags">
+        <source>label.tags</source>
+        <target>Tags</target>
+      </trans-unit>
+      <trans-unit id="message.empty_list">
+        <source>message.empty_list</source>
+        <target>List is empty.</target>
+      </trans-unit>
+      <trans-unit id="message.record_not_found">
+        <source>message.record_not_found</source>
+        <target>Record not found.</target>
+      </trans-unit>
+      <trans-unit id="title.record_list">
+        <source>title.record_list</source>
+        <target>Records list</target>
+      </trans-unit>
+      <trans-unit id="title.record_view">
+        <source>title.record_view</source>
+        <target>Record view #%id%</target>
+      </trans-unit>
+
+            <trans-unit id="title.event_list">
+              <source>title.event_list</source>
+              <target>Events</target>
+            </trans-unit>
+
+            <trans-unit id="action_create">
+              <source>action_create</source>
+              <target>Create</target>
+            </trans-unit>
+<trans-unit id="action.show">
+  <source>action.show</source>
+  <target>Show</target>
+</trans-unit>
+<trans-unit id="action_edit">
+  <source>action_edit</source>
+  <target>Edit</target>
+</trans-unit>
+<trans-unit id="action_delete">
+  <source>action_delete</source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="title.category_list">
+  <source>title.category_list</source>
+  <target>Category</target>
+</trans-unit>
+
+<trans-unit id="label.created_at">
+  <source>label.created_at</source>
+  <target>Created at </target>
+</trans-unit>
+
+<trans-unit id="label.updated_at">
+  <source>label.updated_at</source>
+  <target>Updated at</target>
+</trans-unit>
+
+<trans-unit id="label.dueDate">
+  <source>label.dueDate</source>
+  <target>Due date</target>
+</trans-unit>
+
+<trans-unit id="label.category">
+  <source>label.category</source>
+  <target>Category</target>
+</trans-unit>
+
+<trans-unit id="title.event_create">
+  <source>title.event_create</source>
+  <target>Create new event</target>
+</trans-unit>
+
+<trans-unit id="label.none">
+  <source>label.none</source>
+  <target>  </target>
+</trans-unit>
+
+<trans-unit id="action.save">
+  <source>action.save</source>
+  <target>Save</target>
+</trans-unit>
+
+<trans-unit id="action.back_to_list">
+  <source>action.back_to_list</source>
+  <target>Back to list</target>
+</trans-unit>
+
+
+
+
+
+
+<trans-unit id="contact_delete ">
+  <source>contact_delete </source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="contact_edit">
+  <source>contact_edit</source>
+  <target>Edit</target>
+</trans-unit>
+
+<trans-unit id="label.email">
+  <source>label.email</source>
+  <target>Email</target>
+</trans-unit>
+
+<trans-unit id="label.adress">
+  <source>label.adress</source>
+  <target>Adress</target>
+</trans-unit>
+
+<trans-unit id="label.phone ">
+  <source>label.phone</source>
+  <target>Phone number</target>
+</trans-unit>
+
+
+
+<trans-unit id="label.name">
+  <source>label.name</source>
+  <target>Name</target>
+</trans-unit>
+
+<trans-unit id="title.contact_list">
+  <source>title.contact_list</source>
+  <target>Contacts</target>
+</trans-unit>
+
+<trans-unit id="title.contact_delete">
+  <source>title.contact_delete</source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="title.contact_create">
+  <source>title.contact_create</source>
+  <target>Create</target>
+</trans-unit>
+
+
+
+<trans-unit id="contact_delete">
+  <source>contact_delete</source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="category_delete">
+  <source>category_delete</source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="category_edit">
+  <source>category_edit</source>
+  <target>Edit</target>
+</trans-unit>
+
+<trans-unit id="title.category_delete">
+  <source>title.category_delete</source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="title.category_create">
+  <source>title.category_create</source>
+  <target>Create</target>
+</trans-unit>
+
+<trans-unit id="title.category_edit">
+  <source>title.category_edit</source>
+  <target>Edit</target>
+</trans-unit>
+
+<trans-unit id="title.event_details">
+  <source>title.event_details</source>
+  <target>Event details</target>
+</trans-unit>
+
+<trans-unit id="event_delete">
+  <source>event_delete</source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="event_edit">
+  <source>event_edit</source>
+  <target>Edit</target>
+</trans-unit>
+
+
+
+
+<trans-unit id="title.contact_edit">
+  <source>title.contact_edit</source>
+  <target>Edit</target>
+</trans-unit>
+
+<trans-unit id="action.delete ">
+  <source>action.delete</source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="title.event_delete">
+  <source>title.event_delete</source>
+  <target>Delete</target>
+</trans-unit>
+
+<trans-unit id="title.event_edit">
+  <source>title.event_edit</source>
+  <target>Edit</target>
+</trans-unit>
+
+<trans-unit id="message.edited_successfully">
+  <source>message.edited_successfully</source>
+  <target>Message edited successfully</target>
+</trans-unit>
+
+<trans-unit id="message.deleted_successfully">
+  <source>message.deleted_successfully</source>
+  <target>Message deleted successfully</target>
+</trans-unit>
+
+<trans-unit id="message.created_successfully">
+  <source>message.created_successfully</source>
+  <target>Message created successfully</target>
+</trans-unit>
+
+<trans-unit id="message.category_contains_tasks">
+  <source>message.category_contains_tasks</source>
+  <target>Category contains tasks</target>
+</trans-unit>
+
+<trans-unit id="title.contact_details">
+  <source>title.contact_details</source>
+  <target>Contact details</target>
+</trans-unit>
+
+
+
+
+<trans-unit id="category_filter">
+  <source>category_filter</source>
+  <target>category filter</target>
+</trans-unit>
+
+<trans-unit id="filter">
+  <source>filter</source>
+  <target>filter</target>
+</trans-unit>
+
+<trans-unit id="cate.index">
+  <source>cate.index</source>
+  <target>category</target>
+</trans-unit>
+
+<trans-unit id="event.index">
+  <source>event.index</source>
+  <target>Event</target>
+</trans-unit>
+
+<trans-unit id="contact.index">
+  <source>contact.index</source>
+  <target>Contact</target>
+</trans-unit>
+
+
+    </body>
+  </file>
+</xliff>

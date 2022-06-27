@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'title.contact_list'|trans }}
+{% endblock %}
+
+{% block body %}
+    <h1>{{ 'title.contact_list'|trans }}</h1>
+    {% if pagination is defined and pagination.items|length %}
+
+
+        <div><a href="{{ url('contact_create') }}">{{ 'action_create'|trans }}</a></div>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>{{ knp_pagination_sortable(pagination, 'label.id'|trans, 'contact.id') }}</th>
+                <th>{{ knp_pagination_sortable(pagination, 'label.name'|trans, 'contact.name') }}</th>
+                <th>{{ knp_pagination_sortable(pagination, 'label.phone'|trans, 'contact.phone') }}</th>
+                <th>{{ knp_pagination_sortable(pagination, 'label.email'|trans, 'contact.email') }}</th>
+                <th>{{ knp_pagination_sortable(pagination, 'label.adress'|trans, 'contact.adress') }}</th>
+
+                <th>{{ 'label.actions'|trans }}</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            {% for contact in pagination.items %}
+                <tr>
+                    <td>{{ contact.id }}</td>
+                    <td>{{ contact.name }}</td>
+                    <td>{{ contact.phone }}</td>
+                    <td>{{ contact.email }}</td>
+                    <td>{{ contact.adress }}</td>
+
+                    <td><a href="{{ url('contact_edit', {id: contact.id}) }}" title="{{ 'contact_edit'|trans }}">{{ 'action_edit'|trans }}</a>
+                        <a href="{{ url('contact_delete', {id: contact.id}) }}" title="{{ 'contact_delete'|trans }}">{{ 'action_delete'|trans }}</a>
+                    <a href="{{ url('contact_show', {id: contact.id}) }}" title="{{ 'action.show'|trans }}">
+                        {{ 'action.show'|trans }}</td>
+
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+
+        <div class="navigation text-center">
+            {{ knp_pagination_render(pagination) }}
+        </div>
+
+    {% else %}
+        <p>
+            {{ 'message.empty_list'|trans }}
+        </p>
+
+        <div><a href="{{ url('contact_create') }}">{{ 'action_create'|trans }}</a></div>
+    {% endif %}
+{% endblock %}
